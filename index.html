@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kiriani Boys Senior School</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #26332b;
+  background: #f5f7f5;
+}
+
+header {
+  background: #064e2b;
+  color: white;
+  padding: 22px 6%;
+  text-align: center;
+}
+
+.logo {
+  font-size: 48px;
+}
+
+header h1 {
+  font-size: 27px;
+}
+
+nav {
+  background: #d5a51c;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: #17251b;
+  text-decoration: none;
+  margin: 8px 12px;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(120deg, #064e2b, #17834a);
+  color: white;
+  padding: 65px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 22px;
+  padding: 12px 22px;
+  background: #e5b52b;
+  color: #12321e;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 42px 7%;
+}
+
+section h2 {
+  color: #086236;
+  margin-bottom: 18px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  border-radius: 8px;
+  border-top: 4px solid #0b7740;
+  box-shadow: 0 3px 10px #0001;
+}
+
+.card h3 {
+  color: #086236;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 22px;
+}
+
+.admission {
+  background: #e8f1e9;
+}
+
+.notice {
+  padding: 15px;
+  background: #fff5d5;
+  border-left: 4px solid #d5a51c;
+  margin-top: 15px;
+}
+
+form {
+  max-width: 600px;
+  display: grid;
+  gap: 12px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bbc9bd;
+  border-radius: 5px;
+  font: inherit;
+}
+
+button {
+  padding: 13px;
+  background: #086236;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  background: #063c23;
+  color: white;
+  padding: 25px;
+}
+
+footer a {
+  color: #f5d56b;
+}
+
+@media (max-width: 600px) {
+  header h1 { font-size: 22px; }
+  .hero h2 { font-size: 27px; }
+  nav a { display: inline-block; margin: 5px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo"></div>
+  <h1>KIRIANI BOYS SENIOR SCHOOL</h1>
+  <p>Maara, Tharaka-Nithi County, Kenya</p>
+  <p>Discipline • Knowledge • Excellence</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Us</a>
+  <a href="#academics">Academics</a>
+  <a href="#admissions">Admissions</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+  <h2>Welcome to Kiriani Boys Senior School</h2>
+  <p>
+    Discover a learning environment that supports academic growth,
+    personal development, discipline and preparation for the future.
+  </p>
+  <a href="#admissions" class="btn">How to Join Our School</a>
+</div>
+
+<section id="about">
+  <h2>About Our School</h2>
+  <p>
+    Kiriani Boys Senior School is a public boys' boarding school
+    located in Maara Sub-County, Tharaka-Nithi County, Kenya.
+    The school is listed as a C1 senior school.
+  </p>
+
+  <div class="cards" style="margin-top:22px">
+    <div class="card">
+      <h3>School Profile</h3>
+      <p>Type: Public school</p>
+      <p>Gender: Boys</p>
+      <p>Accommodation: Boarding</p>
+      <p>KNEC Code: 19326203</p>
+    </div>
+
+    <div class="card">
+      <h3>Our Mission</h3>
+      <p>
+        To support learners in developing knowledge, responsibility,
+        positive values and skills for lifelong success.
+      </p>
+      <small>Sample mission statement — confirm with the school.</small>
+    </div>
+
+    <div class="card">
+      <h3>Our Motto</h3>
+      <p>Discipline, Knowledge and Excellence</p>
+      <small>Suggested motto; not verified as the official motto.</small>
+    </div>
+  </div>
+</section>
+
+<section id="academics">
+  <h2>Academic Programmes</h2>
+  <p>
+    Senior school learning follows Kenya's Competency-Based Education
+    framework. Learners select pathways and subject combinations
+    according to their interests, strengths and career goals.
+  </p>
+
+  <div class="cards" style="margin-top:22px">
+    <div class="card">
+      <h3>STEM</h3>
+      <p>
+        Science, Technology, Engineering and Mathematics,
+        including relevant applied and technical studies.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Social Sciences</h3>
+      <p>
+        Learning areas related to society, communication,
+        humanities and related career fields.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Arts and Sports Science</h3>
+      <p>
+        Opportunities to develop creative, artistic,
+        sporting and performance-related abilities.
+      </p>
+    </div>
+  </div>
+
+  <p class="notice">
+    Contact the school to confirm the pathways and subject
+    combinations currently available for your intended grade.
+  </p>
+</section>
+
+<section id="admissions" class="admission">
+  <h2>Admissions: How to Join</h2>
+  <p>
+    We welcome enquiries from parents, guardians and learners
+    interested in joining Kiriani Boys Senior School.
+  </p>
+
+  <h3 style="margin-top:20px">Grade 10 admission</h3>
+  <ul>
+    <li>Follow the official Ministry of Education senior-school selection and placement process.</li>
+    <li>Select Kiriani Boys Senior School and an eligible subject combination through the official portal.</li>
+    <li>Check your placement results and download the official admission letter and joining instructions.</li>
+    <li>Prepare the documents listed in the official joining instructions.</li>
+    <li>Confirm the reporting date, uniform, boarding requirements and current fee details with the school.</li>
+  </ul>
+
+  <h3 style="margin-top:20px">Documents to prepare</h3>
+  <ul>
+    <li>Official admission or placement letter</li>
+    <li>Junior school assessment results and learner details</li>
+    <li>Birth certificate copy, if requested</li>
+    <li>Medical and other forms specified in the joining instructions</li>
+    <li>Any additional documents officially requested by the school</li>
+  </ul>
+
+  <p class="notice">
+    These are general preparation guidelines, not an official
+    Kiriani joining list. Follow your issued admission letter.
+    For Grade 10 selection and placement, visit the official
+    Ministry portal below.
+  </p>
+
+  <p style="margin-top:18px">
+    <a class="btn"
+       href="https://selection-placement.kemis.go.ke/about"
+       target="_blank" rel="noopener">
+       Official Grade 10 Selection Portal
+    </a>
+  </p>
+
+  <h3 style="margin-top:28px">Admission enquiry</h3>
+  <p>
+    Complete this form to prepare an enquiry for the school.
+    This demonstration form does not send information to the school.
+  </p>
+
+  <form id="enquiryForm">
+    <input type="text" id="parent" placeholder="Parent or guardian name" required>
+    <input type="tel" id="phone" placeholder="Phone number" required>
+
+    <select id="grade" required>
+      <option value="">Grade you want to enquire about</option>
+      <option>Grade 10</option>
+      <option>Grade 11 transfer</option>
+      <option>Grade 12 transfer</option>
+    </select>
+
+    <textarea id="message" rows="4"
+      placeholder="Your question about admission"></textarea>
+
+    <button type="submit">Prepare Enquiry</button>
+  </form>
+
+  <p id="formResult" style="margin-top:15px"></p>
+</section>
+
+<section id="contact">
+  <h2>Contact the School</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Location</h3>
+      <p>Maara Sub-County, Tharaka-Nithi County, Kenya</p>
+      <p>Postal address listed: P.O. Box 69, Chogoria</p>
+    </div>
+
+    <div class="card">
+      <h3>Telephone</h3>
+      <p>School contact listed online:</p>
+      <p><a href="tel:+254707666981">0707 666 981</a></p>
+      <small>Please verify the number before relying on it.</small>
+    </div>
+
+    <div class="card">
+      <h3>Admission Questions</h3>
+      <p>
+        Ask the school administration to confirm current vacancies,
+        transfer procedures, subject combinations, fees and reporting dates.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h3>KIRIANI BOYS SENIOR SCHOOL</h3>
+  <p>Education • Character • Opportunity</p>
+  <p>&copy; <span id="year"></span> School Information Website</p>
+  <p>Informational demonstration — for school organisetion.</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+document.getElementById("enquiryForm").addEventListener("submit",
+  function(event) {
+    event.preventDefault();
+
+    const parent = document.getElementById("parent").value;
+    const phone = document.getElementById("phone").value;
+    const grade = document.getElementById("grade").value;
+    const message = document.getElementById("message").value;
+
+    const enquiry =
+      "KIRIANI BOYS SENIOR SCHOOL ADMISSION ENQUIRY\n\n" +
+      "Parent/Guardian: " + parent + "\n" +
+      "Phone: " + phone + "\n" +
+      "Grade: " + grade + "\n" +
+      "Question: " + (message || "Please provide admission information.");
+
+    const result = document.getElementById("formResult");
+    result.textContent =
+      "Your enquiry has been prepared below. It has NOT been sent to the school.";
+
+    const output = document.createElement("textarea");
+    output.readOnly = true;
+    output.rows = 7;
+    output.style.marginTop = "10px";
+    output.value = enquiry;
+    result.appendChild(output);
+
+    const copyButton = document.createElement("button");
+    copyButton.type = "button";
+    copyButton.textContent = "Copy Enquiry";
+    copyButton.style.marginTop = "10px";
+    copyButton.onclick = async function() {
+      try {
+        await navigator.clipboard.writeText(enquiry);
+        copyButton.textContent = "Copied";
+      } catch {
+        output.focus();
+        output.select();
+        copyButton.textContent = "Select and copy the text";
+      }
+    };
+    result.appendChild(copyButton);
+  }
+);
+</script>
+
+</body>
+</html>
